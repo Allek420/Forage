@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T18:47:15.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0 (Edition std-1)" etag="7NOmNzemHdJD0XxBI-H5" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T18:59:32.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0 (Edition std-1)" etag="X1TqOHlj8EoJR-YVofY_" version="22.1.17" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
-    <mxGraphModel dx="1129" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,6 +44,15 @@
         <mxCell id="6rjn2MY__xC60Us_htXu-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="610" y="165" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-23" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#ff0000;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=open;endSize=8;exitX=0.2;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6rjn2MY__xC60Us_htXu-7" target="6rjn2MY__xC60Us_htXu-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="320" />
+              <mxPoint x="371" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6rjn2MY__xC60Us_htXu-7" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="410" y="245" width="200" height="15" as="geometry" />
         </mxCell>
@@ -67,20 +76,39 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6rjn2MY__xC60Us_htXu-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6rjn2MY__xC60Us_htXu-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="270" as="sourcePoint" />
-            <mxPoint x="360" y="310" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="460" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6rjn2MY__xC60Us_htXu-20" value="Loan has been repaid over the agreed upon timeline" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Verdana;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="280" y="310" width="200" height="40" as="geometry" />
+          <mxGeometry x="250" y="280" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6rjn2MY__xC60Us_htXu-22" value="Payments have been neglected/violation in loan agreement" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Verdana;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="610" y="290" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-33" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#ff0000;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=open;endSize=8;" edge="1" parent="1" source="6rjn2MY__xC60Us_htXu-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-26" value="Debt Collection" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-31" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="595" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-34" value="Attempts for collection will continue until debt is repaid, CRAs are notified of loan status" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Verdana;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="615" y="440" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-40" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#ff0000;align=left;verticalAlign=middle;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=open;endSize=8;" edge="1" parent="1" source="6rjn2MY__xC60Us_htXu-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-37" value="Loan Agreement Fulfilled" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-41" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="355" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6rjn2MY__xC60Us_htXu-43" value="CRAs are notified that the loan has been paid in full" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Verdana;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="385" y="490" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
